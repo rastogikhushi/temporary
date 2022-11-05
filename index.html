@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        overflow-x:hidden;
+        padding: 0;
+        margin: 0;
+    }
+    #navbar{
+        display: inline-block;
+        background-color: black;
+        /* padding: 10px;s */
+        /* margin-top: 10px; */
+        z-index: 2;
+        position: sticky;
+        top:0px;
+        /* overflow: hidden; */
+        color: rgb(255, 255, 255);
+        height: 70px;
+        width:1550px;
+    }
+    div>ol{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        /* padding: 10px; */
+        /* position: sticky; */
+        /* margin: 10px 10px; */
+        justify-content: center;
+        position: relative;
+    }
+    /* div>ol>li{
+        padding-left: 10px;
+        padding-right: 10px ;
+    } */
+    .navitems{
+        margin: 5px 5px;
+    }
+
+    #logo2{
+        top:70px;
+    }
+    ol{
+        position:relative ;
+        bottom: 50px;
+    }
+    #s1{
+       position: absolute;
+       bottom: 20px;
+       left: 95vw;
+    }
+    #s2{
+       position: absolute;
+       bottom: 20px;
+       left: 90vw;
+    }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <span class="navitems" id="logo1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVk3Du7RDeP0dh9zXcouwGUL-mAEDoaHdm2g&usqp=CAU" id="logo2" height="50px"></span>
+        <ol >
+            <li class="navitems">HOME</li>
+            <li class="navitems">ABOUT</li>
+            <li class="navitems">PRPDUCTS</li>
+            <li class="navitems">BLOGS</li>
+            <li class="navitems">CONTACTS</li>
+        </ol>
+        <span class="navitems"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiA5ayLSbJW5sMGOTthyF9Iu4eStKFuwA_1u9K3I-3e09s7Xpw5V9a001T6b6VJzrmkCI&usqp=CAU" height="30px" id="s1"></span>
+        <span class="navitems" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfXTPw9OH-WlG8NqyUBYijdEirR-lmuRjk_Q&usqp=CAU" height="30px" id="s2"></span>
+
+    </div>
+</body>
+</html>
